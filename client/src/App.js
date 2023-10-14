@@ -13,8 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className ="home-banner-container">
-                <div className="home-bannerImage-container">
-                    <img src ={BackGround} alt="My BackGround" className="Bg"/>      
+                <div className="home-bannerImage-container">     
                 </div>
                 <div className="home-text-section">
                     <h1 className="first-heading">
@@ -24,6 +23,7 @@ function App() {
                     <p className="primary-text">
                         "Education Elevated, Certification Validated"
                     </p>
+                    <h1> {message}</h1>
                 </div>
             </div>
     </div>
