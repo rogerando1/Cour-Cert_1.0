@@ -6,7 +6,7 @@ require("dotenv").config();
 
 // middleware
 const corsOptions = {
-    origin: "https://course-certification1-0.onrender.com" // frontend URI (ReactJS)
+    origin: "https://cour-cert-frontend.onrender.com" // frontend URI (ReactJS)
 }
 app.use(express.json());
 app.use(cors(corsOptions));

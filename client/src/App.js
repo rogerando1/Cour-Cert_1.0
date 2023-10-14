@@ -5,7 +5,7 @@ function App() {
 
   // Fetching message from backend on mount
   useEffect(() => {
-    fetch("https://course-certification1-0.onrender.com")
+    fetch("http://localhost:4002")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   }, []);
