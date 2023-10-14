@@ -24,9 +24,6 @@ function App() {
                     <p className="primary-text">
                         "Education Elevated, Certification Validated"
                     </p>
-                    <Link to="/MoreDetails" className="secondary-button">
-                        More Details <FiArrowRight/>
-                    </Link>
                 </div>
             </div>
     </div>
